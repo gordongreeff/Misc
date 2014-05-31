@@ -1,0 +1,2 @@
+pnp-cpt-osfw-access-mi http://fenix.nms.is.co.za/cgi-bin/rrdgraph.cgi?hashhex=4e71abb3304110c5330d86097e404d2f&tag=mi-za-cpt-gsrpe1__ge1-0-3sub2053&linetag=pnp-cpt-osfw-access-mi&type=ifcapacity&graph_height=120&graph_width=450&title_font_size=10&alias=PNP-cpt-osfw-access-mpls&tag_account_id=1-75YA3I&&flush=1&view=text
+pnp-franchise-cpt-osfw-mi http://fenix.nms.is.co.za/cgi-bin/rrdgraph.cgi?hashhex=22a60a3d1d438534e94ed8685c54574f&tag=mi-za-cpt-gsrpe1__ge1-0-3sub2821&linetag=pnp-franchise-cpt-osfw-mi&type=ifcapacity&view=text
