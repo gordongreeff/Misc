@@ -26,9 +26,9 @@ ge0-0-4sub708&linetag=mhg-tp-medscheme-cpt-headoffice-neo-mi&type=iftraffic&view
 my $client = REST::Client->new();
 $client->setHost("http://fenix-gateway.nms.is.co.za");
 $client->addHeader('Content-Type', "application/json");
-$client->addHeader('x-api-auth', "25fce5e5-3963-2922-b711-b7f165fb3eef");
+$client->addHeader('x-api-auth', "XXX-XXX");
 
-my $salt = '100Mmw300twCnRteWoSi1D';# nms salt for fenix
+my $salt = 'XXX-XXX';# nms salt for fenix
 
 #this code searches for a list of matching linetags
 #and then prints the entire JSON formatted response

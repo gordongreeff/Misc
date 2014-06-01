@@ -13,11 +13,11 @@ use Date::Simple qw(days_in_month);
 my $client = REST::Client->new();
 $client->setHost("http://fenix-gateway.nms.is.co.za");
 $client->addHeader('Content-Type', "application/json");
-$client->addHeader('x-api-auth', "25fce5e5-3963-2922-b711-b7f165fb3eef");
+$client->addHeader('x-api-auth', "XXX-XXX");
 $devicename .= ".*";
 my $start_utc=(time-(10*60));
 my $end_utc=time;
-my $salt = '100Mmw300twCnRteWoSi1D';# nms salt for fenix
+my $salt = 'XXX-XXX';# nms salt for fenix
 use Digest::MD5 qw(md5_hex);
 #https://wiki.is.co.za/index.php/NMS:Performance_Management:Fenix:User_Interfaces:CGI
 my $hash =  md5_hex($salt.$filename);
