@@ -1,2 +1,0 @@
-pnp-cpt-osfw-access-mi,51.2M,18.02M
-pnp-franchise-cpt-osfw-mi,20.5M,9.46M

@@ -1,6 +1,6 @@
 		$(document).ready(function() {
 			$('#getFeed').click(function(data) {
-			$.getJSON('https://persephone.shrubbery.org.za/test/myfirst.php', function(data) {
+			$.getJSON('https://persephone.shrubbery.org.za/ajax/myfirst.php', function(data) {
 				if(data) {
 					$.each(data, function(key, value) {
 						$('#feedContainerList').append(
